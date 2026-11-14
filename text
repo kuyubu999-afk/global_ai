@@ -1,0 +1,14 @@
+Global-AI-Travel/
+├── .github/
+│   └── workflows/
+│       └── build-apk.yml          <-- GitHub 云端自动打包脚本
+├── app/
+│   ├── build.gradle               <-- App 模块配置
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml <-- 权限配置（网络、相机、麦克风）
+│           ├── java/com/travel/ai/
+│           │   └── MainActivity.java <-- Android 原生外壳与硬件桥接
+│           └── assets/
+│               └── index.html      <-- 全模态 AI 交互核心界面与逻辑
+└── build.gradle                    <-- 项目全局配置

@@ -12,4 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Global Travel AI"
+include ':app'
